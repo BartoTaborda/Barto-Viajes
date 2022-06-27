@@ -61,11 +61,11 @@ var metFormulario = {
                
             } else {
 
-                if (propFormulario.elementos[i].parentElement.children.length >= 3) {
+                // if (propFormulario.elementos[i].parentElement.children.length >= 3) {
 
-                    propFormulario.error = propFormulario.elementos[i].parentElement.getElementsByTagName('p')[0];
-                    propFormulario.elementos[i].parentElement.removeChild(propFormulario.error);
-                }
+                //     propFormulario.error = propFormulario.elementos[i].parentElement.getElementsByTagName('p')[0];
+                //     propFormulario.elementos[i].parentElement.removeChild(propFormulario.error);
+                // }
             }
         }
     },
